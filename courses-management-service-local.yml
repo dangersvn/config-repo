@@ -1,0 +1,9 @@
+logging:
+  level:
+    com.netflix.discovery: DEBUG
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaLocalUser:eurekaLocalPassword@localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
