@@ -8,6 +8,12 @@ eureka:
   instance:
     preferIpAddress: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,info # Add refresh here
+
 course:
   greeting: "Hello from local Config!"
   welcomeMessage: "Welcome to local Course Management - Initial Version"
