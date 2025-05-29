@@ -11,4 +11,4 @@ management:
 course:
   greeting: "Hello from local Config!"
   welcomeMessage: "Welcome to local Course Management - Initial Version"
-  maxStudents: 150
+  maxStudents: 160
